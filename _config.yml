@@ -82,39 +82,10 @@ analytics:
 author:
   name             : "Jinpyo Kim"
   avatar           : "프로필사진.jpg"
-  bio              : "- Professional Daddy for 4 babies. - Embedded Software Engineer [Involved Project] Enterprise SSD - PE9110 (PCIe Gen4), SE5031 (SATA) Client SSD - PC401"
+  bio              : "Professional Daddy for 4 babies Embedded Software Engineer [Involved Project] PE9110, SE5031, BC501, PC401"
   location         : "Yongin, South Korea"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "academicpages"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
+  employer         : "SKHynix inc"
   linkedin         : "jinpyo-kim-587b1568"
-  orcid            : "http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "replacethistwitterhandle"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
 
 
 # Reading Files

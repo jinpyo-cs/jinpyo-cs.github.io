@@ -11,30 +11,31 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science and Engineering, Sogang University, 2014
+* M.S. in Computer Science and Engineering, Sogang University, 2016
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Feb. 2017: Senior Embedded Software Engineer
+  * SK Hynix Inc.
+  * Duties included: SSD (Solid-State Drive) Firmware development
+  * Supervisor: Dr. Dony young Seo
+   
+* Feb. 2016: Junior Embedded Software Engineer
+  * SK Hynix Inc.
+  * Duties included: SSD Firmware Performance Analysis
+  * Supervisor: Technical Leader Beom Ju Shin
+  
+* Feb. 2014: Research Assistant
+  * Sogang University
+  * Duties included: Circuit Simulation Analysis related to Process Variation
+  * Supervisor: Professor. Juho Kim
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages : C, C++, Python, Java, UNIX shell
+* Platform : Windows XP/7/8/10, Linux, UNIX
+* Debugger : TRACE32 (hardware debugger for embedded systems such as ARM achitecture)
 
 Publications
 ======
@@ -42,18 +43,14 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Patents
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* US10860227B2 (granted): changes NAND flash program level (SLC, MLC, TLC) based on surrounding environment-sensing data
+* US20200126624A1 (granted): determines to remove victim block based on erase count
+* US20220050604A1 (granted): provides improved security of storage device by position information generator
+* US11269528B2 (granted): reduces internal read by using Host read cmd
+* US20220206706A1 (pending): avoids free block shortage during boot up
+* US20210133058A1 (pending): minimize power off operation related to read count table of FTL
+* US20220043601A1 (pending): changes FTL meta page layout for shutdown process
+* US20220171542A1 (pending): compares ages between meta block and PLP block for determining perform recovery operation
+* US20220179573A1 (granted): manages two level structure for reducing DRAM access

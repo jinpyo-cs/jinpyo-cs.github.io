@@ -16,20 +16,33 @@ Education
 
 Work experience
 ======
-* Feb. 2017: Senior Embedded Software Engineer
+* Feb. 2020 : Embedded Software Engineer
   * SK Hynix Inc.
-  * Duties included: SSD (Solid-State Drive) Firmware development
-  * Supervisor: Dr. Dony young Seo
+  * Duties included: Power Loss Protection for FTL
+  * Project : PE9110 (ATOMOS (in-house controller) + 128L 3D TLC)
+  * Supervisor: Dr.Dongyoung Seo
+
+* Feb. 2018 : Embedded Software Engineer
+  * SK Hynix Inc.
+  * Duties included: SSD Optimization for QoS requirement
+  * Project : SE5031 (Zirconlite (in-house controller) + 96L 3D TLC)
+  * Supervisor: Technical Leader Jaehoon Heo
+
+* Feb. 2017 : Embedded Software Engineer
+  * SK Hynix Inc.
+  * Duties included: SSD Firmware Development
+  * Project : BC501 (Cephues (in-house controller) + 72L 3D TLC)
+  * Supervisor: Technical Leader HaeLyong (Harry) Song
    
-* Feb. 2016: Junior Embedded Software Engineer
+* Feb. 2016 : Junior Embedded Software Engineer
   * SK Hynix Inc.
   * Duties included: SSD Firmware Performance Analysis
-  * Supervisor: Technical Leader Beom Ju Shin
+  * Supervisor: Technical Leader BeomJu Shin
   
-* Feb. 2014: Research Assistant
+* Feb. 2014 : Research Assistant
   * Sogang University
   * Duties included: Circuit Simulation Analysis related to Process Variation
-  * Supervisor: Professor. Juho Kim
+  * Supervisor: Professor.Juho Kim
   
 Skills
 ======

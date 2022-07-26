@@ -16,10 +16,15 @@ Education
 
 Research experience
 ======
-* Feb. 2014 : Research Assistant
+* Feb. 2015 : Research Assistant
   * [CAD & VLSI Research Lab](https://cslab.sogang.ac.kr/cslab/index.html) at Sogang University
   * Master’s Thesis: [Efficient Flash Cache Management in Online Transaction Processing Server](/files/jinpyo_kim_thesis.pdf)
-  * Advisor: Professor.Juho Kim
+  * Advisor: Professor Juho Kim
+  
+* Feb. 2014 : Research Assistant
+  * [CAD & VLSI Research Lab](https://cslab.sogang.ac.kr/cslab/index.html) at Sogang University
+  * Project : Process variation and BTI-aware Static Timing Analysis with Samsung Electronics
+  * Advisor: Professor Juho Kim
   
 Work experience
 ======
@@ -56,12 +61,6 @@ Skills
 * Platform : Windows XP/7/8/10, Linux, UNIX
 * Debugger : TRACE32 (hardware debugger for embedded systems such as ARM achitecture)
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Patents
 ======
 * [US10860227B2](https://patents.google.com/patent/US10860227B2) (granted)

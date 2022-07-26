@@ -84,7 +84,7 @@ author:
   avatar           : "pic_profile.jpg"
   bio              : "Embedded Software Engineer [Involved Project] PE9110, SE5031, BC501, PC401"
   location         : "Yongin, South Korea"
-  employer         : "SK Hynix inc."
+  employer         : ["SK Hynix inc."](https://www.skhynix.com/)
   linkedin         : "jinpyo-kim-587b1568"
 
 

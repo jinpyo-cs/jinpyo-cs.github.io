@@ -11,6 +11,9 @@ redirect_from:
 {% include base_path %}
 
 ![datacenter_img](/images/datacenter.jpg)
+
+---
+
 Scalable and efficient data center system design for reducing carbon emissions
 ======
 * Caching algorithm for persistent memory and storage device

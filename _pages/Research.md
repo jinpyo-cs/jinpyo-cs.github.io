@@ -11,17 +11,18 @@ redirect_from:
 {% include base_path %}
 
 ---
-![image](https://user-images.githubusercontent.com/25541665/182150325-4e952fe7-0638-48fa-a47c-69102ef79d44.png)
-
-The data center market will continue to show high growth. In addition, Machine learning and Artificial intelligence increase the demand for more efficient storage system. This requires sustainable and efficient green power solutions. The company I am currently working for(SK hynix inc.) is also adhering to eco-friendly management policy. In this context, my research focuses on scalable and efficient memory/storage system for reducing carbon emissions.
+![datacenter_img](/images/datacenter.jpg)
+The data center market will continue to show high growth. In addition, Machine learning and Artificial intelligence increase the demand for more efficient data-centric system. This requires sustainable and efficient green power solutions. The company I am currently working for(SK hynix inc.) is also adhering to eco-friendly management policy. In this context, my research focuses on scalable and efficient memory/storage system for reducing carbon emissions.
 
 Memory hierarchy with proper emerging memory technologies
 ======
-* 
-*
+![image](https://user-images.githubusercontent.com/25541665/182153670-20312c95-d50f-4a82-9aac-a2ee5666a4d6.png)
 
-Recoverable persistent memory from crash consistency
+* Cache alogrithms for reducing access (memory/storage)
+* Energy-efficient data placement
+* Recoverable persistent memory from crash consistency
+
+Computational storage
 ======
-* write efficient alogrithms for 
-* Finding a optimal configuration  with large capacity memory and storage
+* 
 

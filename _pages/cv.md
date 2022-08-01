@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Education"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,7 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Education
 ======
 * B.S. in Computer Science and Engineering, Sogang University, 2014
 * M.S. in Computer Science and Engineering, Sogang University, 2016

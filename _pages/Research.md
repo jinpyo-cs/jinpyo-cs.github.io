@@ -10,13 +10,20 @@ redirect_from:
 
 {% include base_path %}
 
-![datacenter_img](/images/datacenter.jpg)
+
 
 ---
+![image](https://user-images.githubusercontent.com/25541665/182146931-b9bf1135-ac66-4b05-8141-abb961b9c083.png)
 
-Scalable and efficient data center system design for reducing carbon emissions
+The data center market will continue to show high growth. In addition, Machine learning and Artificial intelligence increase the demand for more efficient storage system. This requires sustainable and efficient green power solutions. The company I am currently working for(SK hynix inc.) is also adhering to eco-friendly management policy. In this context, my research focuses on scalable and efficient memory/storage system for reducing carbon emissions.
+
+Memory hierarchy with proper emerging memory technologies
 ======
-* Caching algorithm for persistent memory and storage device
-* Memory hierarchy with proper emerging memory technologies
+* 
+*
+
+Recoverable persistent memory from crash consistency
+======
+* write efficient alogrithms for 
 * Finding a optimal configuration  with large capacity memory and storage
 

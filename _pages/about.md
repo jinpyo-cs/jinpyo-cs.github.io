@@ -15,4 +15,5 @@ The focus of my research is on the memory/storage system. My goal is to improve 
 News
 =====
 2021.09
-I was selected as a reciept of Ph.D. fellowship from SK Hynix (A.K.A Academic Degree Program). So, I am looking for Ph.D. Program in United States. I will apply for admission Fall 2023.
+
+I was selected as a reciept of Ph.D. fellowship from SK Hynix (A.K.A. Academic Degree Program). So, I am looking for Ph.D. Program in United States. I will apply for admission Fall 2023.

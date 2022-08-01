@@ -1,13 +1,19 @@
 ---
 layout: archive
-title: "Education"
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
+Last Updated: Aug. 2, 2022
+
+[Download CV here](/files/JP_CV_v1.pdf)
 
 {% include base_path %}
+
+Education
+=====
 * B.S. in Computer Science and Engineering, Sogang University, 2014
 * M.S. in Computer Science and Engineering, Sogang University, 2016
 

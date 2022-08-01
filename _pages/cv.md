@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-======
 * B.S. in Computer Science and Engineering, Sogang University, 2014
 * M.S. in Computer Science and Engineering, Sogang University, 2016
 

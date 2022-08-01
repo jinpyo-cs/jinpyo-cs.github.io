@@ -63,21 +63,14 @@ Skills
 
 Patents
 ======
-* [US10860227B2](https://patents.google.com/patent/US10860227B2) (granted)
-    - changes NAND flash program level (SLC, MLC, TLC) based on surrounding environment-sensing data
-* [US20200126624A1](https://patents.google.com/patent/US20200126624A1) (granted)
-    - determines to remove victim block based on erase count
-* [US20220050604A1](https://patents.google.com/patent/US20220050604A1) (granted)
-    - provides improved security of storage device by position information generator
-* [US11269528B2](https://patents.google.com/patent/US11269528B2) (granted)
-    - reduces internal read by using Host read cmd
-* [US20220206706A1](https://patents.google.com/patent/US20220206706A1) (pending)
-    - avoids free block shortage during boot up
-* [US20210133058A1](https://patents.google.com/patent/US20210133058A1) (pending)
-    - minimize power off operation related to read count
-* [US20220043601A1](https://patents.google.com/patent/US20220043601A1) (pending)
-    - changes meta page layout for shutdown process
-* [US20220171542A1](https://patents.google.com/patent/US20220171542A1) (pending)
-    - compares ages between meta block and PLP block for determining perform recovery operation
-* [US20220179573A1](https://patents.google.com/patent/US20220179573A1) (granted)
-    - manages two level structure for reducing DRAM access
+* Granted
+  * [US10860227B2](https://patents.google.com/patent/US10860227B2)
+  * [US20200126624A1](https://patents.google.com/patent/US20200126624A1)
+  * [US20220050604A1](https://patents.google.com/patent/US20220050604A1)
+  * [US11269528B2](https://patents.google.com/patent/US11269528B2)
+  * [US20220179573A1](https://patents.google.com/patent/US20220179573A1)
+* Issued
+  * [US20220206706A1](https://patents.google.com/patent/US20220206706A1)
+  * [US20210133058A1](https://patents.google.com/patent/US20210133058A1)
+  * [US20220043601A1](https://patents.google.com/patent/US20220043601A1)
+  * [US20220171542A1](https://patents.google.com/patent/US20220171542A1)

@@ -8,7 +8,7 @@ redirect_from:
 ---
 Last Updated: Aug. 2, 2022
 
-[Download CV here](/files/JP_CV_v1.pdf)
+[Download CV here](/files/JP_CV_v3.pdf)
 
 {% include base_path %}
 

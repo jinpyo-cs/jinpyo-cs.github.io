@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I have worked for [SK Hynix inc.](https://www.skhynix.com/) as embedded software engineer since 2016. Previously, I received my B.S and M.S in computer science and  engineering from [Sogang University](https://sogang.ac.kr/index.do). During my graudated, I worked with [Prof. Juho Kim](https://cslab.sogang.ac.kr/cslab/index.html).
+I joined [SK Hynix inc.](https://www.skhynix.com/) in 2016 as a embedded software engineer, working on the development of SSD Firmware. I developed PE9110 in 2021, which serves as the new SK Hynix`s SSD architecture.
 
-The focus of my research is on the memory/storage system. My goal is to improve its performance, energy-efficiency, and reliability. My research has been featured in SK Hynix's Patents.
+The focus of my research is on the memory/storage system. My goal is to improve its performance, energy-efficiency, and reliability. With 7 years of experience in memory technology, I have been granted 6 patents for storage system design and I have an additional 5 patent applications pending.
+
+I received my B.S and M.S in computer science and  engineering from [Sogang University](https://sogang.ac.kr/index.do) in 2014 and 2016, respectively. During my graudated, I worked with [Prof. Juho Kim](https://cslab.sogang.ac.kr/cslab/index.html).
 
 News
 =====

@@ -35,8 +35,9 @@ Memory/storage hierarchy with proper emerging memory technologies
 
 ![image](https://user-images.githubusercontent.com/25541665/182406062-22a6faef-93f4-42a5-81c8-38fbc6468e76.png)
 
-Granularity
-
+1) Granularity (bytes vs block)
+2) Latency (high tail latency)
+3) Cost
 By combining different memory technologies, heterogeneous memory architectures allow today’s systems to take advantage of the strengths of each technology — namely, in terms of latency, bandwidth, capacity, persistence or cost. As a result, applications may benefit from improved performance, energy-efficiency, and cost trade-offs.
 Still, exploiting the full potential of heterogeneous memory architectures poses significant challenges. Since heterogeneous memory architectures introduce dramatic disruptions to the usual memory hierarchy assumptions that have guided decades of system and software design, we need to rethink the full system stack to embrace the new era of memory heterogeneity. 
 

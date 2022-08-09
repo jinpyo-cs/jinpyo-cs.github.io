@@ -36,9 +36,10 @@ Memory/storage hierarchy with proper emerging memory technologies
 By combining different memory technologies, heterogeneous memory architectures allow today’s systems to take advantage of the strengths of each technology — namely, in terms of latency, bandwidth, capacity, persistence or cost. As a result, applications may benefit from improved performance, energy-efficiency, and cost trade-offs.
 
 There are differential characteristics of memory devices such as DRAM, PMEM and Flash. These affect efficiency of memory/storage system which is consists of heterogeneous memories.
-1) Granularity of Operation (Bytes vs Block)
-2) Latency (leads to high tail latency)
-3) Cost of read/write
+
+1) Granularity of operation - Block vs Bytes
+2) Latency
+3) Units price
 
 Still, exploiting the full potential of heterogeneous memory architectures poses significant challenges. Since heterogeneous memory architectures introduce dramatic disruptions to the usual memory hierarchy assumptions that have guided decades of system and software design, we need to rethink the full system stack to embrace the new era of memory heterogeneity. 
 

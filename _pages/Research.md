@@ -41,7 +41,7 @@ New and increasingly important data-centric workloads, such as AI/ML, IoT, and H
 
 3) Volatile and Non-volatile
 
-Since heterogeneous memory architectures breaks system and software design based on conventional computer system, we need to a systematic design considering memory heterogeneity.
+Since heterogeneous memory architectures breaks system and software design based on conventional computer system, we need to redesign memory system considering memory heterogeneity and characteristics of memory technologies.
 
 Recoverable persistent memory for crash consistency
 ======

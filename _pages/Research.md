@@ -35,7 +35,7 @@ Memory/storage hierarchy with proper emerging memory technologies
 
 New and increasingly important data-centric workloads, such as AI/ML, IoT, and HPC demand tremendous throughput at a reasonable price. These cannot be handle by the current memory/storage hierarchy of DRAM and flash. A New memory/storage hierarchy that combines emerging memory technologies may be a solution. There are differential characteristics of memory devices such as DRAM, PMEM and Flash. These factors affect efficiency of memory/storage system which is consists of heterogeneous memories.
 
-1) Granularity of operation - Block vs Bytes
+1) Granularity of operation - Block vs Byte
 
 2) Latency
 
@@ -48,7 +48,8 @@ Recoverable persistent memory for crash consistency
 
 ![PM](https://user-images.githubusercontent.com/25541665/182413294-a7f7326f-0f73-4178-8d24-a01564dd79b0.png)
 
-Maintaining the consistency of data on persistent memory requires data persistence, write ordering and transaction atomicity. The challenge of determining the optimal way to recover persistent memory from crash is driven by a trade-off between recovery time and overall performance.
+Maintaining the consistency of data on persistent memory requires data persistence, write ordering and transaction atomicity. The challenge of determining the optimal way to recover persistent memory from system crashes and power failures is driven by a trade-off between recovery time and overall performance. We need to seek an efficient manner to preserve persistent memory`s state before the crash.
+
   * Issued patent:
     * [US20220171542A1](https://patents.google.com/patent/US20220171542A1) (guarantees SSD`s data consisteny from frequent power loss)
  

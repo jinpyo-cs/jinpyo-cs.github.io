@@ -19,13 +19,13 @@ The datacenter market will continue to show high growth. In addition, Machine le
 Efficient storage system for reducing carbon emissions
 ======
 
-As demand for data storage increases dramatically, storage continues to play a significant role in enterprise operation. In particular, energy consumption by cooling data center can be over 40% of total energy consumption of data center. From this point of view, reducing heat generation may be the most energy-efficient cooling method. For example, the more often the NAND Flash cells inside the SSD are written and read, the hotter they get. Decreasing write and read for NAND Flash cells is able to is one of ways to improve SSD`s thermal issue. The objective of this research is to architect system to improve the power consumption and maintain performance and reliability.
+As demand for data storage increases dramatically, storage continues to play a significant role in enterprise operation. In particular, energy consumption by cooling data center can be over 40% of total energy consumption of data center. From this point of view, reducing heat generation may be the most energy-efficient cooling method. For example, the more often the NAND Flash cells inside the SSD are written and read, the hotter they get. Decreasing write and read operation for NAND Flash cells is one of ways to improve SSD`s thermal issue. The objective of this research is to architect system to improve the power consumption and maintain performance and reliability.
 
-* Granted patent:
-  * [US20200126624A1](https://patents.google.com/patent/US20200126624A1) (reduces NAND block copy)
-  * [US11269528B2](https://patents.google.com/patent/US11269528B2) (reduces NAND page read)
-  * [US20220179573A1](https://patents.google.com/patent/US20220179573A1) (reduces DRAM access) 
-  
+  * Granted patent:
+    * [US20200126624A1](https://patents.google.com/patent/US20200126624A1) (reduces NAND block copy)
+    * [US11269528B2](https://patents.google.com/patent/US11269528B2) (reduces NAND page read)
+  * Issued patent:
+    * [US20220179573A1](https://patents.google.com/patent/US20220179573A1) (reduces DRAM access)  
   
   
 Memory/storage hierarchy with proper emerging memory technologies
@@ -35,7 +35,7 @@ Memory/storage hierarchy with proper emerging memory technologies
 
 New and increasingly important data-centric workloads, such as AI/ML, IoT, and HPC demand tremendous throughput at a reasonable price. These cannot be handle by the current memory/storage hierarchy of DRAM and flash. A New memory/storage hierarchy that combines emerging memory technologies may be a solution. There are differential characteristics of memory devices such as DRAM, PMEM and Flash. These factors affect efficiency of memory/storage system which is consists of heterogeneous memories.
 
-1) Granularity of operation - Block vs Byte
+1) Granularity - Block vs Byte
 
 2) Latency
 

@@ -48,7 +48,7 @@ Recoverable non-volatile memory(NVM) management for crash consistency
 
 ![image](https://user-images.githubusercontent.com/25541665/186192661-04dd0cc3-776a-49aa-80b1-edea7c234ab2.png)
 
-The industry just started adopting new memory such as persistent memory and storage class memory. Both are NVMs that maintain the data consistency. It requires data persistence, write ordering and transaction atomicity. The challenge of determining the optimal way to recover NVM device from system crashes and power failures is driven by a trade-off between recovery time and overall performance. We need to seek an efficient manner to preserve the state of NVM device before the crash.
+The industry just started adopting new memory such as persistent memory and storage class memory. Both are NVM that maintain the data consistency. It requires data persistence, write ordering and transaction atomicity. The challenge of determining the optimal way to recover NVM device from system crashes and power failures is driven by a trade-off between recovery time and overall performance. We need to seek an efficient manner to preserve the state of NVM device before the crash.
 
   * Issued patent:
     * [US20220171542A1](https://patents.google.com/patent/US20220171542A1) (guarantees SSD`s data consisteny from frequent power loss)

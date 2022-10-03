@@ -6,9 +6,9 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-Last Updated: Aug. 2, 2022
+Last Updated: Oct. 3, 2022
 
-[Download CV here](/files/JP_CV_v4.pdf)
+[Download CV here](/files/JP_CV_v5.pdf)
 
 {% include base_path %}
 

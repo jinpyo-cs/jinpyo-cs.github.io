@@ -18,4 +18,4 @@ News
 =====
 2021.09
 
-I was selected as a receipt of Ph.D. fellowship from SK Hynix (A.K.A. Academic Degree Program). I am looking for Ph.D. Program in United States. I will apply for admission Fall 2023.
+I was selected as a recipient of Ph.D. fellowship from SK Hynix (A.K.A. Academic Degree Program). I am looking for Ph.D. Program in United States. I will apply for admission Fall 2023.

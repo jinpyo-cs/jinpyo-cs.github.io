@@ -66,14 +66,16 @@ Skills
 
 Patents
 ======
-* Granted
+* Granted (6)
   * [US10860227B2](https://patents.google.com/patent/US10860227B2)
   * [US20200126624A1](https://patents.google.com/patent/US20200126624A1)
   * [US20220050604A1](https://patents.google.com/patent/US20220050604A1)
   * [US11269528B2](https://patents.google.com/patent/US11269528B2)
   * [US20220179573A1](https://patents.google.com/patent/US20220179573A1)
-* Issued
+  * [US11404137B1](https://patents.google.com/patent/US11404137B1)
+* Issued (5)
   * [US20220206706A1](https://patents.google.com/patent/US20220206706A1)
   * [US20210133058A1](https://patents.google.com/patent/US20210133058A1)
   * [US20220043601A1](https://patents.google.com/patent/US20220043601A1)
   * [US20220171542A1](https://patents.google.com/patent/US20220171542A1)
+  * [US20220229775A1](https://patents.google.com/patent/US20220229775A1)

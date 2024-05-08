@@ -6,19 +6,23 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-Last Updated: Oct. 3, 2022
+Last Updated: May. 8, 2024
 
-[Download CV here](/files/JP_CV_v5.pdf)
+[Download CV here](/files/CV_JP_US_v4.pdf)
 
 {% include base_path %}
 
 Education
 =====
-* B.S. in Computer Science and Engineering, Sogang University, 2014
+* PhD. in Computer Science and Engineering, University of California, San Diego , 2023 ~
 * M.S. in Computer Science and Engineering, Sogang University, 2016
+* B.S. in Computer Science and Engineering, Sogang University, 2014
 
 Research experience
 ======
+* Sep. 2023 : Graduate Research Assistant
+  * Stable Lab and work with Jishen Zhao
+  * Advisor: Professor Juho Kim
 * Feb. 2015 : Research Assistant
   * [CAD & VLSI Research Lab](https://cslab.sogang.ac.kr/cslab/index.html) at Sogang University
   * Master’s Thesis: [Efficient Flash Cache Management in Online Transaction Processing Server](/files/jinpyo_kim_thesis.pdf)

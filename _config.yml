@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "JinPyo Kim"
+title                    : "Jinpyo Kim"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"

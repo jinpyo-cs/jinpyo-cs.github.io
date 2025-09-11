@@ -31,7 +31,8 @@ With **7+ years** of industry experience in memory technology, I bring a unique 
 ## Publications
 
 ### 2025
-- **Accepted**: "AlphaFold3 Workload Characterization: A Comprehensive Analysis of Bottlenecks and Performance Scaling"  
+- **Accepted**: "AlphaFold3 Workload Characterization: A Comprehensive Analysis of Bottlenecks and Performance Scaling (AFSysBench benchmark suite)"  
+  [PDF](https://cseweb.ucsd.edu/~jzhao/files/kim-iiswc2025.pdf) | [GitHub](https://github.com/stable-lab/AFSysBench)  
   Jinpyo Kim, Mingi Kwon, Jishen Zhao (UCSD) - **IISWC 2025**
 
 ### 2024

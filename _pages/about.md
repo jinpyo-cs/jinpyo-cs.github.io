@@ -21,37 +21,21 @@ My research focuses on **memory and storage systems** with the goal of improving
 🎯 **Performance** - Optimizing data access patterns and system throughput  
 ⚡ **Energy Efficiency** - Reducing power consumption in data-intensive operations
 
+- **Heterogeneous Computing Systems** - Analyzing CPU, GPU, and CXL memory systems to identify bottlenecks and guide efficient infrastructure design for large-scale inference and bioinformatics applications
+
 With **7+ years** of industry experience in memory technology, I bring a unique perspective combining:
 - **13 granted U.S. patents** for storage system design
 - Deep expertise in SSD firmware and emerging memory technologies
 
-## Recent News
+## Publications
 
-### 📰 2024
- - **Published research** (co-author): ["The Hitchhiker's Guide to Programming and Optimizing Cache Coherent Heterogeneous Systems"](https://arxiv.org/abs/2411.02814)
-   - Led CXL memory performance evaluation and analysis for LLM workloads
-   - Analyzed modern heterogeneous computing systems with CXL, NVLink-C2C, and AMD Infinity Fabric
+### 2025
+- **Accepted**: "AlphaFold3 Workload Characterization: A Comprehensive Analysis of Bottlenecks and Performance Scaling"  
+  Jinpyo Kim, Mingi Kwon, Jishen Zhao (UCSD) - **IISWC 2025**
 
-### 📰 2023
-- **Aug**: Joined UC San Diego as a Ph.D. student under Prof. Jishen Zhao
-- Transitioned from industry to academia to pursue advanced research in memory systems
-
-
-## Research Areas
-
-- **Energy-efficient memory systems** for sustainable datacenter computing  
-  → Studying LLM and HPC workloads with PIM and computational SSDs to reduce power-hungry data movement.
-
-- **Memory/storage hierarchy** optimization with CXL and emerging technologies  
-  → Optimizing memory tiering using CXL, PIM, and computational storage for large AI and scientific workloads.
-
-- **Machine learning workload** optimization for heterogeneous memory systems  
-  → Improving LLM and HPC workloads performance across CPU–GPU–memory hierarchies.
-
-- **Next-generation interconnects** and memory disaggregation  
-  → Exploring CXL-based memory disaggregation and interconnect effects on AI/HPC performance.
-
-
+### 2024
+- **Published**: ["The Hitchhiker's Guide to Programming and Optimizing Cache Coherent Heterogeneous Systems"](https://arxiv.org/abs/2411.02814)  
+  Co-authored research on CXL memory performance evaluation and analysis for LLM workloads
 
 ## Professional Experience
 
@@ -73,3 +57,9 @@ Advisor: [Prof. Juho Kim](https://cslab.sogang.ac.kr/cslab/index.html)
 
 **B.S. in Computer Science and Engineering** (2010 - 2014)  
 [Sogang University](https://sogang.ac.kr/index.do)
+
+## Recent News
+
+### 📰 2023
+- **Aug**: Joined UC San Diego as a Ph.D. student under Prof. Jishen Zhao
+- Transitioned from industry to academia to pursue advanced research in memory systems

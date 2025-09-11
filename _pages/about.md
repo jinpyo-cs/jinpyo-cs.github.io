@@ -18,14 +18,15 @@ Research Focus: Memory and storage systems, emerging memory technologies, and en
 
 My research focuses on **memory and storage systems** with the goal of improving:
 
-🎯 **Performance** - Optimizing data access patterns and system throughput  
-⚡ **Energy Efficiency** - Reducing power consumption in data-intensive operations
-
+- **Performance** - Optimizing data access patterns and system throughput  
+- **Energy Efficiency** - Reducing power consumption in data-intensive operations
 - **Heterogeneous Computing Systems** - Analyzing CPU, GPU, and CXL memory systems to identify bottlenecks and guide efficient infrastructure design for large-scale inference and bioinformatics applications
+
+## Industry Expertise
 
 With **7+ years** of industry experience in memory technology, I bring a unique perspective combining:
 - **13 granted U.S. patents** for storage system design
-- Deep expertise in SSD firmware and emerging memory technologies
+- **Deep expertise** in SSD firmware and emerging memory technologies
 
 ## Publications
 
@@ -34,8 +35,8 @@ With **7+ years** of industry experience in memory technology, I bring a unique 
   Jinpyo Kim, Mingi Kwon, Jishen Zhao (UCSD) - **IISWC 2025**
 
 ### 2024
-- **Published**: ["The Hitchhiker's Guide to Programming and Optimizing Cache Coherent Heterogeneous Systems"](https://arxiv.org/abs/2411.02814)  
-  Co-authored research on CXL memory performance evaluation and analysis for LLM workloads
+- **Published**: ["(Updated Version) The Hitchhiker's Guide to Programming and Optimizing Cache Coherent Heterogeneous Systems: CXL, NVLink-C2C, and AMD Infinity Fabric (HEIMDALL benhmark suite)"](https://arxiv.org/abs/2411.02814)  
+  Zixuan Wang, Suyash Mahar, Luyi Li, Jangseon Park, Jinpyo Kim, Theodore Michailidis, Yue Pan, Tajana Rosing, Dean Tullsen, Steven Swanson, Kyung Chang R\ yoo, Sungjoo Park, Jishen Zhao
 
 ## Professional Experience
 
@@ -49,7 +50,7 @@ With **7+ years** of industry experience in memory technology, I bring a unique 
 
 **Ph.D. in Computer Science and Engineering** (2023 - Present)  
 University of California, San Diego (UCSD)  
-Advisor: Prof. Jishen Zhao
+Advisor: [Prof. Jishen Zhao](https://cseweb.ucsd.edu/~jzhao/index.html)
 
 **M.S. in Computer Science and Engineering** (2014 - 2016)  
 [Sogang University](https://sogang.ac.kr/index.do)  

@@ -12,15 +12,14 @@ redirect_from:
 
 **3rd Year Ph.D. Student in Computer Science** | UC San Diego (2023 - Present)  
 Advisor: [Prof. Jishen Zhao](https://cseweb.ucsd.edu/~jzhao/)  
-Research Focus: Memory and storage systems, emerging memory technologies, and energy-efficient computing
 
 ## Research Interests
 
 My research focuses on **memory and storage systems** with the goal of improving:
 
-- **Performance** - Optimizing data access patterns and system throughput  
-- **Energy Efficiency** - Reducing power consumption in data-intensive operations
-- **Heterogeneous Computing Systems** - Analyzing CPU, GPU, and CXL memory systems to identify bottlenecks and guide efficient infrastructure design for large-scale inference and bioinformatics applications
+- 🎯 **Performance** - Optimizing data access patterns and system throughput  
+- ⚡ **Energy Efficiency** - Reducing power consumption in data-intensive operations
+- 🧩 **Heterogeneous Computing Systems** - Analyzing CPU, GPU, and CXL memory systems to identify bottlenecks and guide efficient infrastructure design for large-scale inference and bioinformatics applications
 
 ## Industry Expertise
 
@@ -33,11 +32,11 @@ With **7+ years** of industry experience in memory technology, I bring a unique 
 ### 2025
 - **Accepted**: "AlphaFold3 Workload Characterization: A Comprehensive Analysis of Bottlenecks and Performance Scaling (AFSysBench benchmark suite)"  
   [PDF](https://cseweb.ucsd.edu/~jzhao/files/kim-iiswc2025.pdf) | [GitHub](https://github.com/stable-lab/AFSysBench)  
-  Jinpyo Kim, Mingi Kwon, Jishen Zhao (UCSD) - **IISWC 2025**
+  **Jinpyo Kim**, Mingi Kwon, Jishen Zhao (UCSD) - **IISWC 2025**
 
 ### 2024
 - **Published**: ["(Updated Version) The Hitchhiker's Guide to Programming and Optimizing Cache Coherent Heterogeneous Systems: CXL, NVLink-C2C, and AMD Infinity Fabric (HEIMDALL benhmark suite)"](https://arxiv.org/abs/2411.02814)  
-  Zixuan Wang, Suyash Mahar, Luyi Li, Jangseon Park, Jinpyo Kim, Theodore Michailidis, Yue Pan, Tajana Rosing, Dean Tullsen, Steven Swanson, Kyung Chang R\ yoo, Sungjoo Park, Jishen Zhao
+  Zixuan Wang, Suyash Mahar, Luyi Li, Jangseon Park, **Jinpyo Kim**, Theodore Michailidis, Yue Pan, Tajana Rosing, Dean Tullsen, Steven Swanson, Kyung Chang R\ yoo, Sungjoo Park, Jishen Zhao
 
 ## Professional Experience
 

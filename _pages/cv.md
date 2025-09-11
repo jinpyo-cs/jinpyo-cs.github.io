@@ -8,7 +8,7 @@ redirect_from:
 ---
 Last Updated: May. 8, 2024
 
-[Download CV here](/files/CV_JP_US_v4.pdf)
+[Download CV here](/files/CV_JP_US_v5.pdf)
 
 {% include base_path %}
 
@@ -25,7 +25,7 @@ Research experience
   * Advisor: Professor Juho Kim
 * Feb. 2015 : Research Assistant
   * [CAD & VLSI Research Lab](https://cslab.sogang.ac.kr/cslab/index.html) at Sogang University
-  * Master’s Thesis: [Efficient Flash Cache Management in Online Transaction Processing Server](/files/jinpyo_kim_thesis.pdf)
+  * Master's Thesis: [Efficient Flash Cache Management in Online Transaction Processing Server](/files/jinpyo_kim_thesis.pdf)
   * Advisor: Professor Juho Kim
   
 * Feb. 2014 : Research Assistant
@@ -62,24 +62,26 @@ Work experience
   * NAVY, Republic of Korea
   * Duties included: maintains Linux OS servers at Naval Headquarters
   
-Skills
+Technical Skills
 ======
-* Programming Languages : C, C++, Python, Java, UNIX shell
-* Platform : Windows XP/7/8/10, Linux, UNIX
-* Debugger : TRACE32 (hardware debugger for embedded systems such as ARM achitecture)
+* LLM Benchmarking & Inference Frameworks: vLLM, llama.cpp, llama3
+* Profiling & Benchmarking Tools: Linux perf, AMD uProf, NVIDIA Nsight Systems
+* Programming Languages: C/C++, Python, Java, UNIX shell
+* Platform: Windows XP/7/8/10, Linux, UNIX server
+* Debugger: TRACE32 (hardware debugger for embedded systems such as ARM architecture)
 
 Patents
 ======
-* Granted (6)
-  * [US10860227B2](https://patents.google.com/patent/US10860227B2)
-  * [US20200126624A1](https://patents.google.com/patent/US20200126624A1)
-  * [US20220050604A1](https://patents.google.com/patent/US20220050604A1)
-  * [US11269528B2](https://patents.google.com/patent/US11269528B2)
-  * [US20220179573A1](https://patents.google.com/patent/US20220179573A1)
-  * [US11404137B1](https://patents.google.com/patent/US11404137B1)
-* Issued (5)
-  * [US20220206706A1](https://patents.google.com/patent/US20220206706A1)
-  * [US20210133058A1](https://patents.google.com/patent/US20210133058A1)
-  * [US20220043601A1](https://patents.google.com/patent/US20220043601A1)
-  * [US20220171542A1](https://patents.google.com/patent/US20220171542A1)
-  * [US20220229775A1](https://patents.google.com/patent/US20220229775A1)
+* Granted (12)
+  * U.S. 10,741,254: "Memory system and operating method thereof.", 2020
+  * U.S. 10,860,227: "Memory controller, memory system having the same, and method of operating the same.", 2020
+  * U.S. 11,269,528: "Data storage device, operation method thereof and controller therefor.", 2022
+  * U.S. 11,307,942: "Memory system, memory controller and method for operating memory controller.", 2022
+  * U.S. 11,404,137: "Memory system and operating method of memory system", 2022
+  * U.S. 11,422,747: "Memory system and method for operating memory controller included therein.", 2022
+  * U.S. 11,556,252: "Storage device and method of operating the same.", 2023
+  * U.S. 11,593,006: "Data storage apparatus and method for managing valid data based on bitmap table.", 2023
+  * U.S. 11,599,275: "Memory controller for controlling power loss recovery and method of operating the same.", 2023
+  * U.S. 11,704,050: "Memory system for determining a memory area in which a journal is stored according to a number of free memory blocks.", 2023
+  * U.S. 12,216,914: "Apparatus and method for power-loss data protection in a system.", 2025
+  * U.S. 12,287,979: "Data storage apparatus and operating method thereof.", 2025

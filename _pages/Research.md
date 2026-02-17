@@ -12,51 +12,34 @@ redirect_from:
 
 ![datacenter_img](/images/datacenter.jpg)
 
-## Research Vision
+## Research Overview
 
-The datacenter market continues to show exponential growth, driven by machine learning and artificial intelligence workloads that demand increasingly efficient data-centric systems. This requires sustainable and efficient green computing solutions. My research focuses on developing scalable and efficient storage systems that reduce carbon emissions while optimizing the memory/storage hierarchy with emerging technologies.
+My research focuses on **memory and storage systems** for datacenter-scale workloads. I build simulation and profiling tools to understand performance bottlenecks across the GPU memory hierarchy, interconnects, and emerging technologies like CXL — with the goal of guiding efficient system design for AI and scientific computing.
 
-## Current Research Areas
+## Current Research
 
-### 🔋 Energy-Efficient Memory Systems for Sustainable Computing
-**Focus**: Reducing power-hungry data movement in datacenter applications
+### Memory Hierarchy Optimization for LLM Inference
 
-Modern datacenters consume over 1% of global electricity, with memory systems accounting for up to 40% of system power. My research explores:
-- **Processing-in-Memory (PIM)** architectures for LLM and HPC workloads
-- **Computational storage devices** that process data near storage
-- Thermal management strategies for high-density memory systems
-- Carbon-aware memory allocation and scheduling
+LLM inference is increasingly **memory-bound**: KV cache growth from long contexts, multi-turn interactions, and multi-agent workloads competes for scarce HBM, while communication overheads (MoE routing, all-reduce) are tightly coupled with parallelism policies.
 
-**Related Patents**:
-- [US20200126624A1](https://patents.google.com/patent/US20200126624A1) - Reduces NAND block copy operations
-- [US11269528B2](https://patents.google.com/patent/US11269528B2) - Optimizes NAND page read patterns
-- [US20220179573A1](https://patents.google.com/patent/US20220179573A1) - Minimizes DRAM access frequency
+I am building a **high-fidelity discrete-event simulator** that models the full GPU serving stack — memory hierarchies (HBM/DRAM/Disk), tensor parallelism, interconnects (PCIe/NVLink), and vLLM-style scheduling (Continuous Batching, PagedAttention) — to enable system-level what-if analysis without exhaustive real-hardware experiments. The simulator is validated against real H100 measurements with **1.5% micro-kernel error** and nsys-comparable component metrics.
 
-### 🏗️ Memory/Storage Hierarchy with CXL and Emerging Technologies
-**Focus**: Optimizing heterogeneous memory systems for AI and scientific computing
+### Scientific Computing Workload Characterization
 
-![image](https://user-images.githubusercontent.com/25541665/186185086-84dd2ae7-3d22-4229-9632-c39a746c23ca.png)
+I study system-level bottlenecks in GPU-accelerated scientific applications to guide infrastructure design. My first work in this area focuses on **AlphaFold3**, systematically profiling its compute, memory, and scaling behavior across GPU configurations.
 
-The emergence of CXL (Compute Express Link) enables new memory architectures that break traditional boundaries:
-- **Memory tiering** strategies using CXL-attached memory expanders
-- **Heterogeneous memory management** across DRAM, CXL memory, and SSDs
-- Integration of **Storage Class Memory (SCM)** in the memory hierarchy
-- **Byte-addressable** vs **block-addressable** memory optimization
+**Publication**:
+- ["AlphaFold3 Workload Characterization: A Comprehensive Analysis of Bottlenecks and Performance Scaling"](https://cseweb.ucsd.edu/~jzhao/files/kim-iiswc2025.pdf) - **IISWC 2025**
+  - **Jinpyo Kim**, Mingi Kwon, Jishen Zhao
+  - [AFSysBench benchmark suite](https://github.com/stable-lab/AFSysBench)
 
-### 🤖 Machine Learning Workload Optimization
-**Focus**: Accelerating LLM and HPC performance on heterogeneous memory
+## Other Research Interests
 
-Large Language Models and HPC applications present unique memory challenges:
-- **LLM inference optimization** with CXL memory pooling
-- **Memory-aware model partitioning** and placement
+- **CXL and memory disaggregation** — heterogeneous memory tiering, cache coherence, and pooling for AI/HPC workloads
+- **Non-volatile memory systems** — crash consistency, write ordering, and wear leveling for persistent memory
+- **Interconnect characterization** — CXL, NVLink-C2C, AMD Infinity Fabric ([Heimdall benchmark suite](https://arxiv.org/abs/2411.02814))
 
-**Recent Publication**:
-- ["The Hitchhiker's Guide to Programming and Optimizing Cache Coherent Heterogeneous Systems"](https://arxiv.org/abs/2411.02814) (2024)
-  - Led CXL memory performance evaluation for LLM workloads
-  - Analyzed CXL, NVLink-C2C, and AMD Infinity Fabric interconnects
+## Tools
 
-### 🔗 Next-Generation Interconnects and Memory Disaggregation
-
-Memory disaggregation promises better resource utilization and scalability:
-- **CXL 3.0** memory pooling and sharing mechanisms
-- **Multi-level memory** networks with fabric-attached memory
+- [**AFSysBench**](https://github.com/stable-lab/AFSysBench) — AlphaFold3 workload profiling benchmark
+- [**Heimdall**](https://arxiv.org/abs/2411.02814) — Cache-coherent heterogeneous system benchmark suite

@@ -22,7 +22,7 @@ Research experience
 ======
 * Sep. 2023 : Graduate Research Assistant
   * Stable Lab and work with Jishen Zhao
-  * Advisor: Professor Juho Kim
+  * Advisor: Professor Jishen Zhao
 * Feb. 2015 : Research Assistant
   * [CAD & VLSI Research Lab](https://cslab.sogang.ac.kr/cslab/index.html) at Sogang University
   * Master's Thesis: [Efficient Flash Cache Management in Online Transaction Processing Server](/files/jinpyo_kim_thesis.pdf)

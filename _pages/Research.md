@@ -14,7 +14,7 @@ redirect_from:
 
 ## Research Overview
 
-My research focuses on **understanding and orchestrating heterogeneous memory systems** for emerging AI and scientific workloads (e.g., LLM serving, AlphaFold3) running across GPU HBM, host DRAM, and CXL-attached memory. My work first characterizes where capacity, bandwidth, and data movement limit performance, then uses those findings to build **runtime orchestration** that coordinates memory placement, data movement, and execution. My most recent system, VAMP, dynamically repartitions GPU HBM between MoE expert weights and the KV cache in multi-turn LLM serving.
+My research focuses on **understanding and orchestrating heterogeneous memory systems** for emerging AI and scientific workloads (e.g., LLM serving, AlphaFold3) running across GPU HBM, host DRAM, and CXL-attached memory. My work first characterizes where capacity, bandwidth, and data movement limit performance, then uses those findings to build **runtime orchestration** that coordinates memory placement, data movement, and execution. Most recently, I built a system that dynamically repartitions GPU HBM between MoE expert weights and the KV cache in multi-turn LLM serving.
 
 ## Current Research
 
@@ -22,7 +22,7 @@ My research focuses on **understanding and orchestrating heterogeneous memory sy
 
 Mixture-of-Experts (MoE) models activate only a few experts per token, yet serving systems keep the full expert set resident in GPU HBM. In multi-turn agentic workloads (e.g., coding agents), the reusable KV-cache footprint grows turn after turn and exhausts the fixed KV-cache pool, triggering evictions, costly re-prefills, and sharp time-to-first-token (TTFT) spikes.
 
-I am developing **VAMP**, a serving framework that **dynamically repartitions HBM between MoE expert weights and the KV cache**. When the KV-cache pool runs short, a cost model compares expert offloading, prefix-cache eviction, and request preemption using measured staging/recomputation costs and online-observed prefix reuse, then picks the cheapest action. HBM pages are remapped at runtime via CUDA virtual memory management, and offloaded experts are staged from host memory with double buffering. Implemented in vLLM and evaluated on Qwen3-Next-80B, VAMP substantially lowers tail TTFT on recorded SWE-agent sessions while leaving low-reuse workloads unaffected.
+I am developing a serving framework that **dynamically repartitions HBM between MoE expert weights and the KV cache**. When the KV-cache pool runs short, a cost model compares expert offloading, prefix-cache eviction, and request preemption using measured staging/recomputation costs and online-observed prefix reuse, then picks the cheapest action. HBM pages are remapped at runtime via CUDA virtual memory management, and offloaded experts are staged from host memory with double buffering. Implemented in vLLM and evaluated on Qwen3-Next-80B, this framework substantially lowers tail TTFT on recorded SWE-agent sessions while leaving low-reuse workloads unaffected.
 
 **Preprint**:
 - ["Dynamic HBM Repartitioning for Multi-Turn MoE Serving"](https://arxiv.org/abs/2609.13537) - **arXiv 2026**

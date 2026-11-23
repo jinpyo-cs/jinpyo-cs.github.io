@@ -30,7 +30,7 @@ With **7+ years** of industry experience in memory technology, I bring a unique 
 ## Publications
 
 ### 2026
-- **Preprint**: ["Dynamic HBM Repartitioning for Multi-Turn MoE Serving (VAMP)"](https://arxiv.org/abs/2609.13537)  
+- **Preprint**: ["Dynamic HBM Repartitioning for Multi-Turn MoE Serving"](https://arxiv.org/abs/2609.13537)  
   [arXiv](https://arxiv.org/abs/2609.13537)  
   **Jinpyo Kim**, Mingi Kwon, Younghoon Min, Jongryool Kim, Jishen Zhao - **arXiv 2026**
 

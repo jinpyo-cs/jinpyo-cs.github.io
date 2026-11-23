@@ -10,12 +10,12 @@ redirect_from:
 
 ## Current Position
 
-**3rd Year Ph.D. Student in Computer Science** | UC San Diego (2023 - Present)  
+**4th Year Ph.D. Student in Computer Science** | UC San Diego (2023 - Present)  
 Advisor: [Prof. Jishen Zhao](https://cseweb.ucsd.edu/~jzhao/)  
 
 ## Research Interests
 
-My research focuses on **memory and storage systems** with the goal of improving:
+My research focuses on **understanding and orchestrating heterogeneous memory systems** (GPU HBM, host DRAM, CXL) for emerging AI workloads, with the goal of improving:
 
 - 🎯 **Performance** - Optimizing data access patterns and system throughput  
 - ⚡ **Energy Efficiency** - Reducing power consumption in data-intensive operations
@@ -29,6 +29,11 @@ With **7+ years** of industry experience in memory technology, I bring a unique 
 
 ## Publications
 
+### 2026
+- **Preprint**: ["Dynamic HBM Repartitioning for Multi-Turn MoE Serving (VAMP)"](https://arxiv.org/abs/2609.13537)  
+  [arXiv](https://arxiv.org/abs/2609.13537)  
+  **Jinpyo Kim**, Mingi Kwon, Younghoon Min, Jongryool Kim, Jishen Zhao - **arXiv 2026**
+
 ### 2025
 - **Accepted**: "AlphaFold3 Workload Characterization: A Comprehensive Analysis of Bottlenecks and Performance Scaling (AFSysBench benchmark suite)"  
   [PDF](https://cseweb.ucsd.edu/~jzhao/files/kim-iiswc2025.pdf) | [GitHub](https://github.com/stable-lab/AFSysBench)  
@@ -36,7 +41,7 @@ With **7+ years** of industry experience in memory technology, I bring a unique 
 
 ### 2024
 - **Published**: ["(Updated Version) The Hitchhiker's Guide to Programming and Optimizing Cache Coherent Heterogeneous Systems: CXL, NVLink-C2C, and AMD Infinity Fabric (HEIMDALL benhmark suite)"](https://arxiv.org/abs/2411.02814)  
-  Zixuan Wang, Suyash Mahar, Luyi Li, Jangseon Park, **Jinpyo Kim**, Theodore Michailidis, Yue Pan, Tajana Rosing, Dean Tullsen, Steven Swanson, Kyung Chang R\ yoo, Sungjoo Park, Jishen Zhao
+  Zixuan Wang, Suyash Mahar, Luyi Li, Jangseon Park, **Jinpyo Kim**, Theodore Michailidis, Yue Pan, Tajana Rosing, Dean Tullsen, Steven Swanson, Kyung Chang Ryoo, Sungjoo Park, Jishen Zhao
 
 ## Professional Experience
 
@@ -60,6 +65,12 @@ Advisor: [Prof. Juho Kim](https://cslab.sogang.ac.kr/cslab/index.html)
 [Sogang University](https://sogang.ac.kr/index.do)
 
 ## Recent News
+
+### 📰 2026
+- **Sep**: Released our preprint on dynamic HBM repartitioning for multi-turn MoE serving ([arXiv](https://arxiv.org/abs/2609.13537))
+
+### 📰 2025
+- AlphaFold3 workload characterization paper (AFSysBench) accepted to **IISWC 2025**
 
 ### 📰 2023
 - **Aug**: Joined UC San Diego as a Ph.D. student under Prof. Jishen Zhao

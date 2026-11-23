@@ -14,15 +14,21 @@ redirect_from:
 
 ## Research Overview
 
-My research focuses on **memory and storage systems** for datacenter-scale workloads. I build simulation and profiling tools to understand performance bottlenecks across the GPU memory hierarchy, interconnects, and emerging technologies like CXL — with the goal of guiding efficient system design for AI and scientific computing.
+My research focuses on **understanding and orchestrating heterogeneous memory systems** for emerging AI and scientific workloads (e.g., LLM serving, AlphaFold3) running across GPU HBM, host DRAM, and CXL-attached memory. My work first characterizes where capacity, bandwidth, and data movement limit performance, then uses those findings to build **runtime orchestration** that coordinates memory placement, data movement, and execution. My most recent system, VAMP, dynamically repartitions GPU HBM between MoE expert weights and the KV cache in multi-turn LLM serving.
 
 ## Current Research
 
-### Memory Hierarchy Optimization for LLM Inference
+### Memory Management for MoE LLM Serving in Multi-Turn Agentic Workloads
 
-LLM inference is increasingly **memory-bound**: KV cache growth from long contexts, multi-turn interactions, and multi-agent workloads competes for scarce HBM, while communication overheads (MoE routing, all-reduce) are tightly coupled with parallelism policies.
+Mixture-of-Experts (MoE) models activate only a few experts per token, yet serving systems keep the full expert set resident in GPU HBM. In multi-turn agentic workloads (e.g., coding agents), the reusable KV-cache footprint grows turn after turn and exhausts the fixed KV-cache pool, triggering evictions, costly re-prefills, and sharp time-to-first-token (TTFT) spikes.
 
-I am building a **high-fidelity discrete-event simulator** that models the full GPU serving stack — memory hierarchies (HBM/DRAM/Disk), tensor parallelism, interconnects (PCIe/NVLink), and vLLM-style scheduling (Continuous Batching, PagedAttention) — to enable system-level what-if analysis without exhaustive real-hardware experiments. The simulator is validated against real H100 measurements with **1.5% micro-kernel error** and nsys-comparable component metrics.
+I am developing **VAMP**, a serving framework that **dynamically repartitions HBM between MoE expert weights and the KV cache**. When the KV-cache pool runs short, a cost model compares expert offloading, prefix-cache eviction, and request preemption using measured staging/recomputation costs and online-observed prefix reuse, then picks the cheapest action. HBM pages are remapped at runtime via CUDA virtual memory management, and offloaded experts are staged from host memory with double buffering. Implemented in vLLM and evaluated on Qwen3-Next-80B, VAMP substantially lowers tail TTFT on recorded SWE-agent sessions while leaving low-reuse workloads unaffected.
+
+**Preprint**:
+- ["Dynamic HBM Repartitioning for Multi-Turn MoE Serving"](https://arxiv.org/abs/2609.13537) - **arXiv 2026**
+  - **Jinpyo Kim**, Mingi Kwon, Younghoon Min, Jongryool Kim, Jishen Zhao
+
+A follow-up and an open-source release are planned.
 
 ### Scientific Computing Workload Characterization
 
@@ -32,6 +38,12 @@ I study system-level bottlenecks in GPU-accelerated scientific applications to g
 - ["AlphaFold3 Workload Characterization: A Comprehensive Analysis of Bottlenecks and Performance Scaling"](https://cseweb.ucsd.edu/~jzhao/files/kim-iiswc2025.pdf) - **IISWC 2025**
   - **Jinpyo Kim**, Mingi Kwon, Jishen Zhao
   - [AFSysBench benchmark suite](https://github.com/stable-lab/AFSysBench)
+
+## Previous Work
+
+### LLM Serving Simulation
+
+A **discrete-event simulator** that models the GPU serving stack — memory hierarchies (HBM/DRAM/Disk), tensor parallelism, interconnects (PCIe/NVLink), and vLLM-style scheduling (Continuous Batching, PagedAttention) — for system-level what-if analysis without exhaustive real-hardware experiments. Validated against H100 measurements with **1.5% micro-kernel error**.
 
 ## Other Research Interests
 
